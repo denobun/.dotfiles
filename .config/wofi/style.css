@@ -1,0 +1,29 @@
+window {
+	margin: 5px;
+	border: 2px solid #89b4fa;
+	background-color: #1e1e2e;
+	border-radius: 12px;
+}
+
+#input {
+	margin: 10px;
+	border: none;
+	background-color: #313244;
+	color: #cdd6f4;
+}
+
+#img {
+	margin-right: 10px;
+}
+
+#expander {
+	display: none;
+}
+
+#entry:selected {
+	background-color: #89b4fa;
+}
+
+text:selected {
+	color: #1e1e2e;
+}
