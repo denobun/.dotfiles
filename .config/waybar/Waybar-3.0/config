@@ -14,22 +14,22 @@
     "memory",
     "temperature",
     "custom/filler",
-    "disk"
-    // "custom/filler",
-    // "custom/pacman"
+    "custom/playerctl",
+    "custom/filler",
+    "disk",
+    "custom/filler",
+    "custom/pacman"
   ],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
-    // "battery",
-    // "custom/dot",
-    // "backlight",
-    "custom/playerctl",
+    "battery",
     "custom/dot",
-    "wireplumber",
+    "backlight",
+    "pulseaudio",
     "custom/dot",
     "custom/separator",
-    // "network",
-    // "custom/dot",
+    "network",
+    "custom/dot",
     "clock"
   ], 
   "custom/playerctl": {
@@ -42,14 +42,14 @@
       "on-click-right": "playerctl next",
       "format-icons": {
         "Playing": "<span foreground='#46c880'>  </span>",
-        "Paused": "<span foreground='#cdd6f4'> 󰏥 </span>"
-      }
+        "Paused": "<span foreground='#cdd6f4'> 󰏥 </span>",
+      },
     },
     "custom/uptime": {
     "format": " {}",
     "interval": 30,
     "exec": "$HOME/.local/bin/upt2",
-    "on-click" : ""
+    "on-click" : "",
   },
      "disk": {
     "interval": 1,
