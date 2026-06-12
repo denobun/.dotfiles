@@ -1,0 +1,28 @@
+{
+  "editor.minimap.enabled": false,
+
+  "terminal.integrated.initialHint": false,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "JetBrains Mono, Noto Color Emoji, monospace",
+  "editor.fontLigatures": true,
+
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.formatOnSave": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+  },
+
+  "workbench.colorTheme": "Ayu Mirage",
+  "workbench.settings.applyToAllProfiles": [],
+  "workbench.startupEditor": "none",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "security.workspace.trust.untrustedFiles": "open",
+}
